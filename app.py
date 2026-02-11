@@ -57,7 +57,7 @@ if file:
     sns.heatmap(
         confusion_matrix(y_test, y_pred),
         annot=True,
-        cmap='Reds',
+        cmap='Pinks',
         fmt='d',
         ax=ax
     )
