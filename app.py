@@ -57,7 +57,7 @@ if file:
     sns.heatmap(
         confusion_matrix(y_test, y_pred),
         annot=True,
-        cmap='mako',
+        cmap='rocket',
         fmt='d',
         ax=ax
     )
